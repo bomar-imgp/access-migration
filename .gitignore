@@ -1,0 +1,83 @@
+# Access Database Files
+*.mdb
+*.accdb
+*.ldb
+*.laccdb
+
+# Generated Analysis Files
+access_analysis/
+*.xlsx
+*.xls
+
+# JSON Reports
+*.json
+full_analysis.json
+
+# SQL Files (generated schemas)
+postgresql_schema.sql
+postgresql_compatibility_views.sql
+
+# Markdown Reports
+MIGRATION_SUMMARY.md
+migration_checklist.md
+powerbi_connection_guide.md
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+
+# Backup Files
+*.bak
+*.backup
+*.tmp
+
+# Test Data
+test_data/
+sample_data/
+
+# Sensitive Data
+.env
+credentials.json
+config.json
+secrets.json
+
+# OS Files
+Thumbs.db
+desktop.ini
